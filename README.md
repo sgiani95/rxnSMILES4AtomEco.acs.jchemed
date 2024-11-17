@@ -1,4 +1,6 @@
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sgiani95/rxnSMILES4AtomEco_acs.jchemed/HEAD)
+
 # rxnSMILES4AtomEco:
 
 This package provides functions to calculate the atom economy of chemical reactions using reaction SMILES.
