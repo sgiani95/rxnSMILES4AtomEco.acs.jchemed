@@ -131,7 +131,7 @@ def calculate_atom_economy(reactions_smiles, printout=True):
         print("\n Atom Economy Calculation: \n")
         print_molecule_info(overall_reactants_mols, " Reactants")
         print_molecule_info(last_reaction_products_mols, " Products")
-        atom_economy_str = f"{atom_economy:.2f}%"
+        atom_economy_str = f"{atom_economy:.1f}%"
         print(f"\n{' Atom Economy:':<20} {atom_economy_str:<30} \n")
     else:
         return round(atom_economy, 2)
@@ -160,7 +160,7 @@ def atom_economy(smiles_str):
     """
     atom_economy_value = calculate_atom_economy(smiles_str)
     if atom_economy_value is not None:
-        print(f"Atom Economy: {atom_economy_value:.2f}%")
+        print(f"Atom Economy: {atom_economy_value:.1f}%")
 
 def main():
     """
@@ -174,7 +174,7 @@ def main():
     if args.numeric:
         atom_economy_value = get_atom_economy(args.reactions)
         if atom_economy_value is not None:
-            print(f"{atom_economy_value:.2f}")
+            print(f"{atom_economy_value:.1f}")
     else:
         atom_economy(args.reactions)
 
