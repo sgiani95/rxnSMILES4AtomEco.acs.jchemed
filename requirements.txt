@@ -1,4 +1,2 @@
 rdkit
-numpy
-Pillow
 matplotlib
