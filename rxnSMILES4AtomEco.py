@@ -132,7 +132,7 @@ def calculate_atom_economy(reactions_smiles, printout=True):
         print_molecule_info(overall_reactants_mols, " Reactants")
         print_molecule_info(last_reaction_products_mols, " Products")
         atom_economy_str = f"{atom_economy:.1f}%"
-        print(f"\n{' Atom Economy:':<20} {atom_economy_str:<30} \n")
+        print(f"\n{' Atom Economyy:':<20} {atom_economy_str:<30} \n")
     else:
         return round(atom_economy, 2)
 
