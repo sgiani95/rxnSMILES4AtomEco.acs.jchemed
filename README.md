@@ -46,7 +46,7 @@ atom_economy(reactions_smiles)
  Coefficient:        3.0
 --------------------------------------------------
 
- Atom Economy:       17.76%
+ Atom Economy:       17.8%
 ```
 
 ### Example Numeric Output:
@@ -57,7 +57,7 @@ reactions_smiles = "C.O>catalyst>{3}[HH]"
 value = get_atom_economy(reactions_smiles)
 print(value)
 
-17.76
+17.8
 ```
 
 
