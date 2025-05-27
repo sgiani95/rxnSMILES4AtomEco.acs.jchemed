@@ -1,5 +1,5 @@
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sgiani95/rxnSMILES4AtomEco_acs.jchemed/HEAD) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl-3.0) [![PyPi](https://img.shields.io/badge/pypi-v.2025.03.04-orange)](https://pypi.org/project/rxnSMILES4AtomEco/) 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sgiani95/rxnSMILES4AtomEco.acs.jchemed/HEAD) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl-3.0) [![PyPi](https://img.shields.io/badge/pypi-v.2025.03.04-orange)](https://pypi.org/project/rxnSMILES4AtomEco/) 
 
 # rxnSMILES4AtomEco:
 
