@@ -60,7 +60,8 @@ def print_molecule_info(molecules, title):
     for mol, coeff in molecules:
         smiles = Chem.MolToSmiles(mol)
         mol_weight = f"{Descriptors.MolWt(mol):.2f} g/mol"
-        mol_formula = Chem.rdMolDescriptors.CalcMolFormula(mol, False)  # False for not using Hill notation
+        # False for not using Hill notation
+        mol_formula = Chem.rdMolDescriptors.CalcMolFormula(mol, False)
         print(f"{'.' * 50}")
         print(f"{' SMILES:':<20} {smiles}")
         print(f"{' Molecular Formula:':<20} {mol_formula}")
@@ -80,7 +81,8 @@ def calculate_atom_economy(reactions_smiles, printout=True):
     Returns:
         atom_economy (float): The atom economy as a percentage, if printout is False.
     """
-    reactions = reactions_smiles.split('\n')  # Split reactions by newline character
+    # Split reactions by newline character
+    reactions = reactions_smiles.split('\n')
 
     overall_reactants = []
     overall_products = []
